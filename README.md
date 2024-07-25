@@ -1,38 +1,17 @@
-# create-svelte
+# Merch Vinyles
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+**Merch Vinyles** est une application web de gestion de panier d'achat pour des albums vinyles, construite en utilisant Svelte. Ce projet est un exemple de mise en œuvre d'une interface utilisateur interactive avec une gestion dynamique du panier.
 
-## Creating a project
+## Fonctionnalités
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Affichage des Albums** : Parcourez une liste d'albums vinyles avec image, titre, artiste et prix.
+- **Gestion du Panier** : Ajoutez, retirez ou modifiez la quantité d'albums dans le panier.
+- **Visualisation du Panier** : Un tooltip interactif affiche le contenu du panier, permet d'ajuster les quantités ou de retirer des albums.
+- **Calcul du Total** : Le montant total du panier est calculé et affiché, avec une option pour vider le panier.
+- **Processus d'Achat** : Simulez un achat et videz le panier après confirmation.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies Utilisées
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- **Svelte** : Framework JavaScript pour créer des interfaces utilisateur interactives.
+- **HTML/CSS** : Structuration et stylisation de l'interface utilisateur.
+- **JavaScript** : Gestion de la logique du panier et des interactions utilisateur.
